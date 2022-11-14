@@ -14,6 +14,7 @@ class Dog:
         # Instance Variable
         self.breed = breed
  
+    #getter & setter from Java
     # Adds an instance variable
     def setColor(self, color):
         self.color = color
@@ -21,8 +22,6 @@ class Dog:
     # Retrieves instance variable
     def getColor(self):
         return self.color
-    
-    # getter & setter in Java
  
  
 # Driver Code

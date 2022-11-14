@@ -12,7 +12,6 @@ class Dog:
  
     # The init method or constructor
     def __init__(self, breed, color):
- 
         # Instance Variable
         self.breed = breed
         self.color = color
@@ -20,7 +19,11 @@ class Dog:
  
 # Objects of Dog class
 Rodger = Dog("Pug", "brown")
+#Rodger.breed == "Pug"
+#Roger.color == "brown"
 Buzo = Dog("Bulldog", "black")
+#Buzo.bredd == "Bulldog"
+#Buzo.color == "black"
  
 print('Rodger details:')
 print('Rodger is a', Rodger.animal)

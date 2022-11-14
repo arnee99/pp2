@@ -13,15 +13,16 @@ class Person(object):
  
  
 # Driver code
-emp = Person("Satyam", 102) # An Object of Person
+emp = Person("Henry", 102) # An Object of Person
 emp.Display()
+
 
 class Emp(Person):
    
   def Print(self):
     print("Emp class called")
      
-Emp_details = Emp("Mayank", 103)
+Emp_details = Emp("Mark", 103)
  
 # calling parent class function
 Emp_details.Display()

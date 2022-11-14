@@ -30,6 +30,7 @@ class Child(Base):
  
 # Inherited or Sub class (Note Person in bracket)
  
+#GrandChild -> Child -> Base
 class GrandChild(Child):
  
     # Constructor
@@ -41,7 +42,16 @@ class GrandChild(Child):
     def getAddress(self):
         return self.address
  
+class GrandGrandChild(GrandChild):
+    # Constructor
+    def __init__(self, name, age, address, married):
+        GrandChild.__init__(self, name, age, address)
+        self.married = married
+    
+    def getMarriageStatus(self):
+        return self.married
+    
  
 # Driver code
-g = GrandChild("Geek1", 23, "Noida")
-print(g.getName(), g.getAge(), g.getAddress())
+g = GrandGrandChild("Mark", 23, "Tole bi 59", True)
+print(g.getName(), g.getAge(), g.getAddress(), g.getMarriageStatus())

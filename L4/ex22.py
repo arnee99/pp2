@@ -27,7 +27,6 @@ class Employee(Person):
     def isEmployee(self):
         return True
  
- 
 # Driver code
 emp = Person("Geek1")  # An Object of Person
 print(emp.getName(), emp.isEmployee())

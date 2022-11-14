@@ -19,9 +19,11 @@ class Addition:
 # creating object of the class
 # this will invoke parameterized constructor
 obj = Addition(1000, 2000)
+#obj.first == 1000, obj.second == 2000
  
 # perform Addition
 obj.calculate()
+#obj.answer = obj.first + obj.second = 3000
  
 # display result
 obj.display()

@@ -1,6 +1,6 @@
 # Python example to show the working of multiple
 # inheritance
- 
+
  
 class Base1(object):
     def __init__(self):
