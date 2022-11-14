@@ -1,6 +1,8 @@
-Topics covered in this lab work
+## Lab 3
 
-Python Functions
-Python Lambda
-Python Classes and Objects.
-Python Inheritance
+### Topics covered in this lab work
+
+1. Python Functions
+2. Python Lambda
+3. Python Classes and Objects.
+4. Python Inheritance

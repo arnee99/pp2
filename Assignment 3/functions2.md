@@ -1,3 +1,6 @@
+## Python Function
+
+```python
 # Dictionary of movies
 
 movies = [
@@ -77,13 +80,14 @@ movies = [
 "category": "Romance"
 }
 ]
+```
 
-Write a function that takes a single movie and returns True if its IMDB score is above 5.5
+1. Write a function that takes a single movie and returns `True` if its IMDB score is above 5.5
 
-Write a function that returns a sublist of movies with an IMDB score above 5.5.
+2. Write a function that returns a sublist of movies with an IMDB score above 5.5.
 
-Write a function that takes a category name and returns just those movies under that category.
+3. Write a function that takes a category name and returns just those movies under that category.
 
-Write a function that takes a list of movies and computes the average IMDB score.
+4. Write a function that takes a list of movies and computes the average IMDB score.
 
-Write a function that takes a category and computes the average IMDB score.
+5. Write a function that takes a category and computes the average IMDB score.
