@@ -1,5 +1,5 @@
 def cube(y):
-    return y*y*y
+    return y*y*y #y^3
  
 lambda_cube = lambda y: y*y*y
  

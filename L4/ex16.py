@@ -21,9 +21,11 @@ class Dog:
     # Retrieves instance variable
     def getColor(self):
         return self.color
+    
+    # getter & setter in Java
  
  
 # Driver Code
-Rodger = Dog("pug")
+Rodger = Dog("bulldog")
 Rodger.setColor("brown")
 print(Rodger.getColor())

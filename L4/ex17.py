@@ -11,6 +11,7 @@ class GeekforGeeks:
  
 # creating object of the class
 obj = GeekforGeeks()
+#obj.geek -> GeekforGeeks
  
 # calling the instance method using the object obj
 obj.print_Geek()

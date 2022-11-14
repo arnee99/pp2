@@ -1,4 +1,4 @@
-List = [[2,3,4],[1, 4, 16, 64],[3, 6, 9, 12]]
+List = [[4,3,2],[1, 4, 16, 64],[3, 6, 9, 12]]
 # Sort each sublist
 sortList = lambda x: (sorted(i) for i in x)
  
