@@ -1,4 +1,5 @@
 # Sample built-in iterators
+# Iterator vs Iterable
  
 # Iterating over a list
 print("List Iteration")

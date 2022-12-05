@@ -25,6 +25,8 @@ class Test:
         # Stop iteration if limit is reached
         if x > self.limit:
             raise StopIteration
+        
+        #raise -> return error state
  
         # Else increment and return old value
         self.x = x + 1
@@ -33,7 +35,9 @@ class Test:
 # Prints numbers from 10 to 15
 for i in Test(15):
     print(i)
+#[10;15]
  
 # Prints nothing
-for i in Test(10):
+for i in Test(5):
     print(i)
+# 5 in not in [10;...)

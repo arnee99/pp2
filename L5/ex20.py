@@ -1,10 +1,8 @@
 def f(): 
-    print(s)
-   
     # This program will NOT show error
     # if we comment below line. 
-    s = "Me too."
-   
+    # s = "Me too."
+    print(s)
     print(s)
    
 # Global scope

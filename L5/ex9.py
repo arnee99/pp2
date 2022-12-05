@@ -16,3 +16,4 @@ for index, item in enumerate(tup_iter):
 # thus, the state was saved
 print("Outside loop:")
 print(next(tup_iter))
+print(next(tup_iter))

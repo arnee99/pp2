@@ -1,1 +1,1 @@
-next("GFG")
+#Some broken example
